@@ -99,7 +99,6 @@ const BlackHoleCanvas = () => {
           /> */}
           <Bloom
             intensity={0.5} // intensity of the gloom effect
-            size={0.5} // size of the gloom effect
             height={0.5} // height of the gloom effect
             opacity={0.5} // opacity of the gloom effect
           />
@@ -149,7 +148,7 @@ export default function Home() {
         quantity={100}
       />
       <h3 className="z-10 text-sm text-center text-zinc-500 sm:text-base md:text-lg animate-fade-in">
-        Hey, Ready to be impressed? Explore my portfolio. 🚀
+      Get ready to be wowed—dive into my portfolio now! 🚀
       </h3>
       <h1 className="z-10 text-6xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
         Tushar Gupta
