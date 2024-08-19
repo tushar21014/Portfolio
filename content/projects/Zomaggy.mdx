@@ -1,0 +1,94 @@
+---
+title: Zomaggy
+description: Zomaggy is an innovative food delivery app designed to connect users with a variety of restaurants for quick and easy food orders. The app offers a seamless user experience, efficient order tracking, and secure payment methods.
+date: "2024-08-18"
+published: true
+repository: tushar21014/Zomaggy
+---
+
+Welcome to Zomaggy, your ultimate destination for discovering and ordering food from your favorite restaurants. Zomaggy provides a smooth, user-friendly interface to browse menus, place orders, and track delivery status in real time.
+
+## Features
+
+- **Restaurant Discovery:**
+  - Easily find and explore a wide range of restaurants based on cuisine, location, and user ratings.
+
+- **Order Management:**
+  - Place orders with a few taps and customize your meals to suit your preferences.
+  - Track your orders in real-time, from preparation to delivery.
+
+- **Secure Payments:**
+  - Multiple payment options, including credit/debit cards, UPI, and wallets.
+  - End-to-end encryption ensures the security of your payment information.
+
+- **User-Friendly Interface:**
+  - Clean and intuitive design for effortless navigation and food ordering.
+  
+- **Order History:**
+  - Keep track of all your past orders for easy reordering and reference.
+
+- **Push Notifications:**
+  - Stay updated with real-time alerts on order status, special offers, and promotions.
+
+## Technologies Used
+
+- **Backend:**
+  - Node.js
+  - Express.js
+  - MongoDB for database management
+
+- **Frontend:**
+  - React.js
+  - Redux for state management
+
+- **Payment Integration:**
+  - Stripe API
+
+- **Security:**
+  - JWT (JSON Web Tokens) for user authentication
+  - Bcrypt JS
+  - Firebase
+
+## Prerequisites
+
+- **Node.js** and **npm** installed
+- **MongoDB** server running
+- Basic understanding of RESTful APIs and payment gateways
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/Zomaggy.git
+   cd Zomaggy
+
+2. **Install dependencies:**
+
+    ```bash
+    npm install
+
+3. **Create a .env file and configure your database and API keys.**
+Example:
+    ```bash
+    MONGODB_URI=mongodb://localhost:27017/zomaggydb
+    STRIPE_SECRET_KEY=your-stripe-secret-key
+    JWT_SECRET=your-jwt-secret
+
+4. **Start the application:**
+
+    ``` bash
+    npm run dev 
+5. **Access the application:**
+
+Open http://localhost:3000 in your browser to start exploring Zomaggy.
+
+## API Endpoints
+1. Register User: Send a POST request to /api/auth/signup url.
+2. User Login: POST /api/auth/login
+3. Get Restaurants: GET /api/restaurants
+4. Place Order: POST /api/orders
+5. Track Order: GET /api/orders/:orderId
+
+## Contributing
+Contributions are welcome! If you find any issues or have ideas for improvements, feel free to open a pull request :)
+

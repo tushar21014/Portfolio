@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: "Portfolio",
     description:
       "Hey, Im Rahul Sahani. I'm a full-stack developer and a designer.",
-    url: "https://github.com/rahul-sahani04",
+    url: "https://github.com/tushar21014",
     siteName: "Portfolio",
     images: [
       {

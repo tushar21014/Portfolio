@@ -18,22 +18,22 @@ const socials = [
 	{
 		// icon: <Twitter size={20} />,
 		icon: <LottieAnimation animationData={animatedTwitter} width="70%" height="70%" color="FFFFFF" />,
-		href: "https://x.com/PoetOfHerAlgos",
-		label: "Twitter",
-		handle: "@PoetOfHerAlgos",
+		href: "https://www.linkedin.com/in/tushar-gupta-5666ba23b/",
+		label: "LinkedIn",
+		handle: "Tushar Gupta",
 	},
 	{
 		icon: <LottieAnimation animationData={animatedMail} width="60%" height="60%" color="FFFFFF" />,
 		href: "mailto:me.rsahani@gmail.com",
 		label: "Email",
-		handle: "me.rsahani@gmail.com",
+		handle: "tg21014@gmail.com",
 	},
 	{
 		// icon: <Github size={20} />,
 		icon: <LottieAnimation animationData={animatedGithub} width="100%" height="100%" color="FFFFFF" />,
-		href: "https://github.com/rahul-sahani04",
+		href: "https://github.com/tushar21014",
 		label: "Github",
-		handle: "Rahul-Sahani04",
+		handle: "Tushar21014",
 	},
 ];
 

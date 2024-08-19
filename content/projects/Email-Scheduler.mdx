@@ -1,0 +1,71 @@
+---
+title: AWS Automated Email Scheduler  
+description: This project is a mailing system designed to streamline bulk email communication with HR professionals. It features personalized bulk emailing, flexible scheduling, automatic labeling, and efficient email management.  
+date: "2024-08-19"  
+published: true  
+repository: tushar21014/AWS-Automated-Mail-Sender
+---
+
+This project is a mailing system designed to enhance the efficiency and effectiveness of bulk email communication with HR professionals. Built using React, Node.js, Express, and AWS, this application offers advanced features such as personalized bulk emailing, flexible scheduling, automatic labeling, and comprehensive email management.
+
+## Features
+
+- **Bulk Emailing:** Send personalized emails in bulk to HR professionals.
+- **Advanced Scheduling:** Schedule emails individually for precision and convenience.
+- **Automatic Labeling:** Automatically label emails by company names for easy management.
+- **Customizable Formats:** Choose from various email formats to suit your needs.
+- **CRUD Operations:** Create, read, update, and delete scheduled emails.
+- **Immediate Dispatch:** Send emails immediately in addition to scheduling.
+- **AWS Integration:** Ensures fast, reliable, and secure 24/7 operation.
+
+## Technologies Used
+
+- **Frontend:** React
+- **Backend:** Node.js, Express
+- **Cloud Services:** AWS (Amazon Web Services)
+
+
+## Demo Video
+[Watch the Demo Video on LinkedIn](https://www.linkedin.com/posts/tushar-gupta-5666ba23b_react-nodejs-express-activity-7219200218557239297-YeTo?utm_source=share&utm_medium=member_desktop)
+`
+
+## Installation
+1. **Clone this repository.**
+        ```bash
+        git clone https://github.com/tushar21014/EmailSchedulerApp.git
+        cd EmailSchedulerApp
+2. **Update the .env file with your database credentials and AWS configurations.**
+
+        ``` bash
+        DB_HOST=localhost
+        DB_USER=root
+        DB_PASS=yourpassword
+        DB_NAME=emailschedulerdb
+        AWS_ACCESS_KEY_ID=yourAccessKeyId
+        AWS_SECRET_ACCESS_KEY=yourSecretAccessKey
+        AWS_REGION=yourRegion
+
+3. **Install dependencies and build the project:**
+        ```bash
+        npm install
+4. **Run the application:**
+        ``` bash
+        npm start
+5. **Access the application:**
+    The application will run on http://localhost:3000.
+## Usage
+1. **Register**: Send a POST request to /api/users/signup with user data in the request body.
+
+2. **Login**: Send a POST request to /api/users/login with valid credentials. You will receive a JWT token upon successful login.
+
+3. **Schedule an Email**: Send a POST request to /api/emails/schedule with email details and the scheduled time.
+
+4. **Manage Scheduled Emails**:
+
+- **View Emails**: Send a GET request to /api/emails to retrieve scheduled emails.
+- **Edit Email**: Send a PUT request to /api/emails/:emailId to update the email details.
+- **Delete Email**: Send a DELETE request to /api/emails/:emailId to remove the scheduled email.
+
+
+## Contributing
+Contributions are welcome! If you find any issues or have ideas for improvements, feel free to open a pull request :)
