@@ -11,8 +11,8 @@ My personal website, built with [Next.js](https://nextjs.org/), [Tailwind CSS](h
 
 
 ```sh-session
-git clone https://github.com/Rahul-Sahani04/gaming-portfolio.git
-cd gaming-portfolio
+git clone https://github.com/tushar21014/Portfolio.git
+cd Portfolio
 ```
 
 
