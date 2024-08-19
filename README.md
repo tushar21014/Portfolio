@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="https://rsahani.vercel.app"><h1 align="center">Rahul Sahani</h1></a>
+    <a href="https://rsahani.vercel.app"><h1 align="center">Tushar Gupta</h1></a>
 
 My personal website, built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Upstash](https://upstash.com?ref=chronark.com), [Contentlayer](https://www.contentlayer.dev/), [Three JS](https://threejs.org) and deployed to [Vercel](https://vercel.com/).
 
@@ -11,12 +11,12 @@ My personal website, built with [Next.js](https://nextjs.org/), [Tailwind CSS](h
 
 
 ```sh-session
-git clone https://github.com/Rahul-Sahani04/gaming-portfolio.git
-cd gaming-portfolio
+git clone https://github.com/tushar21014/Portfolio.git
+cd Portfolio
 ```
 
 
-Create a `.env` file similar to [`.env.example`](https://github.com/Rahul-Sahani04/gaming-portfolio/blob/main/.env.example).
+Create a `.env` file similar to [`.env.example`](https://github.com/tushar21014/Portfolio/blob/main/.env.example).
 
 Then install dependencies and run the development server:
 
