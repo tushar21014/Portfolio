@@ -16,7 +16,7 @@ cd Portfolio
 ```
 
 
-Create a `.env` file similar to [`.env.example`](https://github.com/tushar21014/gaming-portfolio/blob/main/.env.example).
+Create a `.env` file similar to [`.env.example`](https://github.com/tushar21014/Portfolio/blob/main/.env.example).
 
 Then install dependencies and run the development server:
 
