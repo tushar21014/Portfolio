@@ -9,11 +9,10 @@ export const metadata: Metadata = {
     default: "Portfolio",
     template: "%s | Portfolio",
   },
-  description: "Hey, Im Rahul Sahani. I'm a full-stack developer and a designer.",
+  description: "Hello, I am Tushar Gupta . I'm a AWS certified cloud practitioner and a backend developer.",
   openGraph: {
     title: "Portfolio",
-    description:
-      "Hey, Im Rahul Sahani. I'm a full-stack developer and a designer.",
+    description:"Hello, I am Tushar Gupta. I'm a AWS certified cloud practitioner and a backend developer.",
     url: "https://github.com/tushar21014",
     siteName: "Portfolio",
     images: [

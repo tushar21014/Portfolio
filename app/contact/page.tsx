@@ -11,13 +11,15 @@ import LottieAnimation from "../components/LottieAnimation";
 import animatedGithub from "../components/AnimatedIcons/icons8-github.json";
 import animatedTwitter from "../components/AnimatedIcons/icons8-twitter.json";
 import animatedMail from "../components/AnimatedIcons/icons8-gmail-logo.json";
+// import animatedLinkedIn from "../components/AnimatedIcons/icons8-linkedin.json";
+import animatedLinkedIn from "../components/AnimatedIcons/icons8-linkedIngrey.json";
 import NextTopLoader from "nextjs-toploader";
 
 
 const socials = [
 	{
 		// icon: <Twitter size={20} />,
-		icon: <LottieAnimation animationData={animatedTwitter} width="70%" height="70%" color="FFFFFF" />,
+		icon: <LottieAnimation animationData={animatedLinkedIn} width="70%" height="70%" color="FFFFFF" />,
 		href: "https://www.linkedin.com/in/tushar-gupta-5666ba23b/",
 		label: "LinkedIn",
 		handle: "Tushar Gupta",
