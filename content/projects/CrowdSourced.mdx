@@ -1,0 +1,68 @@
+---
+title: CrowdSourced
+description: This project is a decentralized opinion and survey platform designed to gather large-scale feedback through incentivized responses. Built using Polygon technology, it allows users to earn cryptocurrency by completing tasks posted by companies.
+date: "2024-09-30"
+published: true
+repository: tushar21014/CrowdSourced
+---
+
+
+CrowdSourced is a decentralized platform that facilitates large-scale opinion gathering and surveys. Companies can post tasks requiring a diverse range of opinions, and users complete these tasks to earn cryptocurrency. Built using React, Node.js, Express, and Polygon blockchain technology, the platform ensures secure, fast, and transparent transactions. The system is credible and reliable, making it a trusted platform for both workers and companies.
+
+## Features
+
+- **Task Posting:** Companies can post surveys and opinion-gathering tasks for users.
+- **Cryptocurrency Rewards:** Users are incentivized with cryptocurrency for completing tasks.
+- **Global Reach:** The platform allows workers to gather global opinions for model training, feedback, and analysis.
+- **Secure Transactions:** Polygon's Proof of Stake ensures reliable and transparent cryptocurrency transactions.
+- **User Roles:** Two types of users: Workers (posting tasks) and Users (completing tasks).
+- **Immediate & Scheduled Posting:** Companies can post tasks immediately or schedule them for a future date.
+- **Cryptocurrency Payment System:** Workers pay to post tasks, and users are compensated upon task completion.
+
+## Technologies Used
+
+- **Frontend:** React
+- **Backend:** Node.js, Express
+- **Blockchain:** Polygon (PoS)
+
+
+#### Landing Page
+![Landing Page](https://github.com/tushar21014/Crowdsourced/blob/main/src/assets/LandingPage.png?raw=true)
+*The initial page where users can learn about the platform and its benefits.*
+
+#### Register Page
+![Register Page](https://github.com/tushar21014/Crowdsourced/blob/main/src/assets/RegisterPage.png?raw=true)
+*The registration page for new users to sign up and join the platform.*
+
+#### Company Dashboard
+![Company Dashboard](https://github.com/tushar21014/Crowdsourced/blob/main/src/assets/CompanyDash.png?raw=true)
+*A comprehensive dashboard for companies to manage their tasks and view analytics.*
+
+#### Analytics
+![Analytics](https://github.com/tushar21014/Crowdsourced/blob/main/src/assets/Analytics.png?raw=true)
+*Detailed analytics page for companies to analyze the feedback and data collected.*
+
+#### Voter Dashboard
+![Voter Dashboard](https://github.com/tushar21014/Crowdsourced/blob/main/src/assets/VoterDash.png?raw=true)
+*The dashboard for voters to view available tasks and track their earnings.*
+
+#### Post Question
+![Post Question](https://github.com/tushar21014/Crowdsourced/blob/main/src/assets/PostQuestion.png?raw=true)
+*Interface for companies to post new questions and tasks for voters.*
+
+#### Submit Form
+![Submit Form](https://github.com/tushar21014/Crowdsourced/blob/main/src/assets/SubmitForm.png?raw=true)
+*Form submission page for voters to submit their responses.*
+
+## Usage
+1. **Register**: Send a POST request to /api/voters/signup with user data in the request body.
+2. **Login**: Send a POST request to /api/voters/login with valid credentials. You will receive a JWT token upon successful login.
+3. **Post a Task**: Workers can send a POST request to /api/company/create with task details and the fee for posting.
+4. **Complete a Task**: Users can send a POST request to /api/tasks/complete/:taskId to submit responses and earn cryptocurrency.
+5. **Manage Tasks**:
+- **View Tasks**: Send a GET request to /api/tasks to retrieve all active tasks.
+- **Edit Task**: Workers can send a PUT request to /api/tasks/:taskId to update task details.
+- **Delete Task**: Workers can send a DELETE request to /api/tasks/:taskId to remove a task.
+
+## Contributing
+Contributions are welcome! If you find any issues or have ideas for improvements, feel free to open a pull request :)
